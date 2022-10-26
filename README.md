@@ -35,4 +35,7 @@
             2：HTTPS与HTTP连接方式不同，默认端口不同，HTTP是80,HTTPS是443
             3.HTTPS需要加密和多次握手，性能不如HTTP
             4.HTTPS需要SSL，SSL证书需要钱
+            
+6.Q:对Vue-router的理解，路由有哪几种模式？...
+  A:
 continue...
