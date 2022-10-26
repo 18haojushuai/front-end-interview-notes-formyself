@@ -20,5 +20,13 @@
 
      比较只会在同层级进行, 不会跨层级比较
      在diff比较的过程中，循环从两边向中间比较
-     
+
+5.Q：什么是HTTP？HTTP与HTTPS的区别是什么？
+  A：HTTP（HyperText Transfer Protocol）   hypertext n. 超文本（含有指向其它文本文件链接的文本） protocol n.礼仪，礼节；国际议定书，协议；
+      HTTP即超文本传输协议，是实现网络通信的一种规范。HTTP是一种传输协议，即可以将数据由A间接直接到B，传输的数据是完整的数据如html文件，图片文件，查询结果等超文本，能够被上层应用识别。
+      HTTPS：HTTP是明文传输，为了隐私、信息安全，将HTTP运行在SSL/TLS，通过SSL证书验证服务器身份并为浏览器和服务器之间通信进行加密，SSL协议位于TCP/IP协议与各种应用层协议之间
+      区别：1：HTTPS是HTTP协议的安全版本，使用了SSL/TLS协议进行了加密处理，相对更安全。
+            2：HTTPS与HTTP连接方式不同，默认端口不同，HTTP是80,HTTPS是443
+            3.HTTPS需要加密和多次握手，性能不如HTTP
+            4.HTTPS需要SSL，SSL证书需要钱
 continue...
