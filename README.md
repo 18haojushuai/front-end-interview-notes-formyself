@@ -37,5 +37,7 @@
             4.HTTPS需要SSL，SSL证书需要钱
             
 6.Q:对Vue-router的理解，路由有哪几种模式？...
-  A:
+  A:vue-router是Vue.js官方的路由管理器。...哈希模式：哈希模式所有工作是前端完成的，不需要后端服务的配合。hash模式的实现方式就是通过监听URL中hash部分的变化即hashchange事件，做出对应的渲染逻辑
+  history模式，由浏览器提供方法，window.history.go/forward/back/pushState/replaceState
+  history模式需要后端配合，监听pushState以及replaceState事件处理前端业务逻辑
 continue...
